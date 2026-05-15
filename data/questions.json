@@ -1,0 +1,101 @@
+{
+  "note": "Dữ liệu mẫu - không phải dữ liệu nghiệp vụ thực tế.",
+  "tests": [
+    {
+      "id": "hoi-nhap",
+      "name": "Hội nhập",
+      "questions": [
+        {
+          "question": "Trong tuần đầu, ưu tiên của nhân sự mới là gì?",
+          "options": ["Nắm quy trình tổng quát", "Bỏ qua nội quy", "Tự phê duyệt chứng từ", "Truy cập mọi khu vực kho"],
+          "answer": 0
+        },
+        {
+          "question": "Khi chưa rõ quy định, cần làm gì?",
+          "options": ["Tự quyết định", "Hỏi người hướng dẫn", "Bỏ qua", "Ghi nhận sau"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "tong-kho",
+      "name": "Tổng kho",
+      "questions": [
+        {
+          "question": "Kiểm đếm đầu ca nhằm mục đích chính nào?",
+          "options": ["Đối chiếu số liệu tồn", "Rút ngắn giờ làm", "Bỏ qua nhập liệu", "Giảm kiểm soát"],
+          "answer": 0
+        },
+        {
+          "question": "Phát hiện lệch tồn cần bước đầu tiên nào?",
+          "options": ["Ẩn thông tin", "Báo cáo theo quy trình", "Tự sửa hệ thống", "Đợi cuối tháng"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "chung-tu-erp",
+      "name": "Chứng từ/ERP",
+      "questions": [
+        {
+          "question": "Trước khi lưu chứng từ trên ERP, cần kiểm tra gì?",
+          "options": ["Thông tin bắt buộc", "Màu nền giao diện", "Tên cá nhân", "Âm lượng máy"],
+          "answer": 0
+        },
+        {
+          "question": "Nếu mã hàng không khớp chứng từ giấy?",
+          "options": ["Lưu tạm không ghi chú", "Tạm dừng và xác minh", "Bỏ qua", "Tạo mã ngẫu nhiên"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "kiem-soat-cong",
+      "name": "Kiểm soát ra vào cổng",
+      "questions": [
+        {
+          "question": "Mục tiêu chính của kiểm soát cổng là gì?",
+          "options": ["Đảm bảo ra/vào đúng quy định", "Tăng thời gian chờ", "Bỏ ghi nhận xe", "Không cần log"],
+          "answer": 0
+        },
+        {
+          "question": "Trường hợp thiếu giấy tờ xe, hành động phù hợp?",
+          "options": ["Cho qua ngay", "Xử lý theo quy trình kiểm soát", "Xóa camera", "Bỏ qua vì đông xe"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "tinh-huong-rui-ro",
+      "name": "Tình huống rủi ro",
+      "questions": [
+        {
+          "question": "Phát hiện dấu hiệu gian lận dữ liệu, cần làm gì trước tiên?",
+          "options": ["Lưu bằng chứng và báo cáo", "Chia sẻ nội bộ công khai", "Xóa dữ liệu", "Làm ngơ"],
+          "answer": 0
+        },
+        {
+          "question": "Khi có sự cố ngoài phạm vi thẩm quyền?",
+          "options": ["Tự ý quyết định", "Escalate đúng cấp", "Trì hoãn báo cáo", "Ẩn thông tin"],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": "data-excel",
+      "name": "Data/Excel",
+      "questions": [
+        {
+          "question": "Kiểm tra dữ liệu trước khi tổng hợp báo cáo gồm bước nào?",
+          "options": ["Làm sạch dữ liệu cơ bản", "Xóa ngẫu nhiên dòng", "Không cần kiểm tra", "Sửa bằng cảm tính"],
+          "answer": 0
+        },
+        {
+          "question": "Để giảm lỗi nhập tay, nên ưu tiên gì?",
+          "options": ["Nhập từng ô thủ công", "Quy tắc kiểm tra/validation", "Tắt công thức", "Không khóa file"],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

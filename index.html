@@ -1,15 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CÚ ĐẤM TƯ DUY</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supply Control Academy</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>CÚ ĐẤM TƯ DUY</h1>
-  <p>A web app that helps create TikTok content ideas, send content for approval, and support scheduled publishing workflows.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1>Supply Control Academy</h1>
+      <p>Nền tảng bài test học việc cho nhân sự mới Bộ phận Kiểm soát Cung ứng</p>
+      <p class="sample-badge">Dữ liệu mẫu</p>
+    </div>
+  </header>
 
-  <p><a href="terms.html">Terms of Service</a></p>
-  <p><a href="privacy.html">Privacy Policy</a></p>
+  <main class="container">
+    <section id="home" class="card">
+      <h2>Giới thiệu chương trình</h2>
+      <p>
+        Supply Control Academy là chương trình đánh giá năng lực đầu vào cho học viên mới.
+        Phiên bản MVP này chạy hoàn toàn frontend (HTML/CSS/JavaScript thuần), phù hợp triển khai qua GitHub Pages.
+      </p>
+      <ul>
+        <li>Làm bài theo từng nhóm năng lực.</li>
+        <li>Chấm điểm tự động ngay khi nộp.</li>
+        <li>Phân loại cấp độ theo thang điểm chuẩn.</li>
+      </ul>
+    </section>
+
+    <section id="test-list" class="card">
+      <h2>Danh sách bài test</h2>
+      <div class="chips">
+        <span>Hội nhập</span>
+        <span>Tổng kho</span>
+        <span>Chứng từ/ERP</span>
+        <span>Kiểm soát ra vào cổng</span>
+        <span>Tình huống rủi ro</span>
+        <span>Data/Excel</span>
+      </div>
+      <p>Chọn một bài test để bắt đầu:</p>
+      <div id="testButtons" class="button-grid"></div>
+    </section>
+
+    <section id="quiz-section" class="card hidden">
+      <div class="quiz-top">
+        <h2 id="quizTitle">Làm bài</h2>
+        <button id="backBtn" class="btn btn-secondary" type="button">Quay lại danh sách</button>
+      </div>
+
+      <div class="progress-wrap" aria-label="Tiến độ làm bài">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+      <p id="progressText" class="progress-text">0/0 câu</p>
+
+      <form id="quizForm"></form>
+
+      <div class="actions">
+        <button id="submitBtn" class="btn" type="button">Nộp bài</button>
+      </div>
+
+      <div id="result" class="result hidden"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2026 Supply Control Academy (MVP). Dữ liệu hiển thị là <strong>Dữ liệu mẫu</strong>.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
